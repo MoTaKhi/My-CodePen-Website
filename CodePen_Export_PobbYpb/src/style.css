@@ -1,0 +1,113 @@
+body{
+font-family: "Lucida Console", "Courier New", monospace;
+}
+#header-img{
+width:100px;
+}
+#nav-bar{
+margin-left:auto;
+}
+#header{
+display:flex;
+align-items:baseline;
+position: fixed;
+    top:0;
+    z-index: 1;
+    width:100%;
+background-color:#F0FFFF;
+}
+.nav-link{
+padding:10px;
+font-size:30px;
+
+}
+#info{
+ background-image:url(https://wallpaperaccess.com/full/1567666.png);
+width:100%;
+height:500px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content: space-around;
+}
+#info h1{
+color:white;
+}
+#info img{
+width:20%;
+}
+#education{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:5%;
+}
+#education li{
+font-size:1.5rem;
+padding:2%;
+}
+#education h2{
+font-size:2rem;
+}
+#hobbies {
+    display: flex;
+justify-content:space-around;
+margin-top:5%;
+flex-wrap:wrap;
+    
+}
+.row-flex{
+    display:flex;
+    flex-direction: column;
+}
+
+.row-flex img {
+    width: 400px;;
+    
+}
+.column-flex{
+background-color:white;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.row-flex h3{
+font-size:30px;
+text-align:center;
+}
+#box-video{
+display:flex;
+margin-top:5%;
+justify-content:center;
+}
+#contact{
+margin-top:5%;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+#email{
+width:200%;
+}
+#submit{
+width:80%;
+margin-top:7%;
+background-color: yellow;
+}
+#form{
+display:flex;
+align-items:center;
+flex-direction:column;
+}
+@media screen and (max-width:600px){
+    .nav-link{
+        font-size: 20px;
+    }
+  #foot{
+font-size:2.5vw;
+}
+}
+#foot{
+display:flex;
+justify-content:space-around;
+background-color:yellow;
+margin-top:7%;
+}
